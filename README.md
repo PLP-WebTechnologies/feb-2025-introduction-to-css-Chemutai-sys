@@ -27,3 +27,37 @@ Margins, paddings, and borders.
  - Improve readability and aesthetics.
 
 Happy Coding! 💻✨
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            #p-main{
+                color:blue;
+                font-style: oblique;
+                font-size: 20px;
+
+            }
+            img{
+                border:5px;
+                border-radius: 3px;
+                margin:150px;
+                display:flexbox;
+                margin:200px;
+                padding: 30px;
+            }
+
+    </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data</title>
+        <!--external styling/css-->
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+            <p id="p-main">This is such a cute image</p>
+            <img src="https://images.pexels.com/photos/31350735/pexels-photo-31350735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            <a class="google-link" href="https://google.com">Go to google</a>
+        </body>
+        
+
+</html>
+ 
